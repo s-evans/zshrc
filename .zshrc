@@ -8,7 +8,7 @@ MANUAL_PLUGIN_DIR=$ZSHRC_ROOT/.other
 export ZSH=$ZSHRC_ROOT/.oh-my-zsh
 
 # Enable plugins
-plugins=(git vi-mode screen tmux)
+plugins=()
 
 # Load oh my zsh
 source $ZSH/oh-my-zsh.sh
@@ -39,5 +39,5 @@ bindkey -a G end-of-buffer-or-history
 # Addtional vim text objects
 source $MANUAL_PLUGIN_DIR/opp/opp.zsh
 
-# Even more text objects
+# Even more vim text objects
 source $MANUAL_PLUGIN_DIR/opp/opp/*.zsh
