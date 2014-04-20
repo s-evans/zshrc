@@ -10,6 +10,9 @@ export ZSH=$ZSHRC_ROOT/.oh-my-zsh
 # Enable plugins
 plugins=()
 
+# Disable auto-updates
+DISABLE_AUTO_UPDATE="true"
+
 # Load oh my zsh
 source $ZSH/oh-my-zsh.sh
 
