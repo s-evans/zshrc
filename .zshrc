@@ -44,3 +44,6 @@ source $MANUAL_PLUGIN_DIR/opp/opp.zsh
 
 # Even more vim text objects
 source $MANUAL_PLUGIN_DIR/opp/opp/*.zsh
+
+# Pull in my aliases
+source ~/.bash_aliases
